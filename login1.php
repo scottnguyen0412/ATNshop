@@ -19,11 +19,11 @@
 </style>
   <table class="w3-table">
                 <tr>
-                <th>Product ID</th>
-                <th>Product Name</th>
-                <th>Product Price</th>
-                <th>Quantity</th>
-                <th colspan="2" align="center">Operation</th>
+                <th style="background-color:#FFFF00">Product ID</th>
+                <th style="background-color:#FF7F50">Product Name</th>
+                <th style="background-color:#FFFF00">Product Price</th>
+                <th style="background-color:#FF7F50">Quantity</th>
+                <th style="background-color:#BA55D3" colspan="2" align="center">Operation</th>
                 </tr>
 <?php
 echo '<p> ATN Shop 1 </p>';
