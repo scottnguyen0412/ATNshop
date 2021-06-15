@@ -1,7 +1,8 @@
 <html>
 <head>
  <ul>
- <li> <a href="index.php"> Log out</a> </li>
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 	<a href="index.php" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-log-out"></span> Log out</a> 
  </ul>
  </head>
  <body>
@@ -21,10 +22,11 @@
   <table style="width:100%">
   <thread style="text-align:left">
                 <tr>
-                <th style="background-color:#FFFF00">Product ID</th>
-                <th style="background-color:#FF7F50">Product Name</th>
-                <th style="background-color:#FFFF00">Product Price</th>
-                <th style="background-color:#FF7F50">Quantity</th>
+			
+                <th style="background-color:#FFFF00"><p style="color:darkblue">Product ID<p></th>
+                <th style="background-color:#FF7F50"><p style="color:darkblue">Product Name<p></th>
+                <th style="background-color:#FFFF00"><p style="color:darkblue">Product Price<p></th>
+                <th style="background-color:#FF7F50"><p style="color:darkblue">Quantity<p></th>
                 <th style="background-color:#BA55D3" colspan="2" align="center">Operation</th>
                 </tr>
 <?php
