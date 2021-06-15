@@ -36,7 +36,7 @@ table {
                 <th style="background-color:#FF7F50"><p style="color:darkblue">Product Name<p></th>
                 <th style="background-color:#FFFF00"><p style="color:darkblue">Product Price<p></th>
                 <th style="background-color:#FF7F50"><p style="color:darkblue">Quantity<p></th>
-                <th style="background-color:#BA55D3" colspan="2" align="center">Operation</th>
+                
                 </tr>
 <?php
 echo '<h1 style="color:orange"> Databse of ATN Shop 1</h1>';
@@ -83,10 +83,10 @@ echo "
                 <th style="background-color:#FF7F50"><p style="color:darkblue">Product Name<p></th>
                 <th style="background-color:#FFFF00"><p style="color:darkblue">Product Price<p></th>
                 <th style="background-color:#FF7F50"><p style="color:darkblue">Quantity<p></th>
-                <th style="background-color:#BA55D3" colspan="2" align="center">Operation</th>
+                
                 </tr>
 <?php
-echo '<p>Databse of ATN Shop 2</p>';
+echo '<h1 style="color:orange"> Databse of ATN Shop 2</h1>';
             $host_heroku = "ec2-54-224-194-214.compute-1.amazonaws.com";
 			$db_heroku = "d1b7erismhj8n3";
 			$user_heroku = "irihpzeafcijwa";
