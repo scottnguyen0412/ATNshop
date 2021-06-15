@@ -7,31 +7,29 @@
  <body>
  <style>
  body {
- background-image: url('Toy1.jpg');
+ background-image: url('login2.png');
  background-attachment: fixed;
  background-size: 100%100%;
  }
  </style>
-  <style>
-table, th, td {
-  border: 1px solid black;
-  padding: 5px;
-}
-table {
-  border-spacing: 15px;
+   <style>
+   table, th, td {
+   border: 1px solid violet;
+ }
 }
 </style>
- <table border="2">
- <tr>
- <th>Product ID</th>
- <th>Product Name</th>
- <th>Product Price</th>
- <th>Quantity</th>
- <th colspan="2" align="center">Operation</th>
- </tr>
+  <table style="width:100%">
+  <thread style="text-align:left">
+                <tr>
+                <th style="background-color:#FFFF00">Product ID</th>
+                <th style="background-color:#FF7F50">Product Name</th>
+                <th style="background-color:#FFFF00">Product Price</th>
+                <th style="background-color:#FF7F50">Quantity</th>
+                <th style="background-color:#BA55D3" colspan="2" align="center">Operation</th>
+                </tr>
 <?php
-echo '<p> ATN Shop 2 </p>';
-            $host_heroku = "ec2-54-224-194-214.compute-1.amazonaws.com";
+
+           		$host_heroku = "ec2-54-224-194-214.compute-1.amazonaws.com";
 			$db_heroku = "d1b7erismhj8n3";
 			$user_heroku = "irihpzeafcijwa";
 			$pw_heroku = "f95d0c3c2fbeff2f8f8a836c4fbc1a31a6018cf2adbfb635f1829a96e436b107";
@@ -64,6 +62,17 @@ Edit/Update</td>
 }
 
 ?>
+<style>
+input[type=submit]{
+  background-color: #CCFFFF;
+  border:none;
+  color:white;
+  padding: 16px 32px;
+  text-decoration:none;
+  margin:4px 2px;
+  cursor:pointer;
+}
+</style>	  
  <form action="https://atnshopapp1.herokuapp.com/add2.php">
  <input type="submit" value="Add" />
 </form>
