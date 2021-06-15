@@ -8,10 +8,7 @@
  <style>
  body {
  background-image: url('login1.png');
- background-color: #cccccc;
-  
-  background-position: center;
-  background-repeat: no-repeat;
+ background-position: center;
   background-size: cover;
   position: relative;
  }
