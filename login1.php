@@ -63,6 +63,17 @@ Edit/Update</td>
 }
 
 ?>
+<style>
+input[type=submit]{
+  background-color: #FFCCFF;
+  border:none;
+  color:white;
+  padding: 16px 32px;
+  text-decoration:none;
+  margin:4px 2px;
+  cursor:pointer;
+}
+</style>	  
  <form action="https://atnshopapp1.herokuapp.com/add1.php">
  <input type="submit" value="Add" />
 </form>
