@@ -27,10 +27,7 @@
     if($user == "atnshop1" && $pass == "admin"){
       header("location:login1.php");
     }
-    else ($user != "atnshop1" || $pass !="admin")
-    {
-        echo("Please try again!");
-    }
+    
     if($user == "atnshop2" && $pass == "admin"){
    header("location:login2.php");
     }
