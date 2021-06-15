@@ -8,8 +8,8 @@
  <style>
  body {
  background-image: url('Toy2.jpg');
- background-attachment: fixed;
- background-size: 300px 100px;
+ background-repeat: no-repeat;
+ background-size: auto;
  }
  </style>
    <style>
