@@ -12,10 +12,8 @@
  background-size: 100%100%;
  }
  </style>
-  <style>
-table, th, td {
-  border: 1px solid black;
-  padding: 5px;
+   <style
+  class="table-responsive slideInRight animated" style="max-height: 400px;">
 }
 table {
   border-spacing: 15px;
