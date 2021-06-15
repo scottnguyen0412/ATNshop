@@ -7,7 +7,7 @@
  <body>
  <style>
  body {
- background-image: url('https://i.pinimg.com/564x/0c/0d/14/0c0d14ee3ec2c658f88794e70a530c44.jpg');
+ background-image: url('Toy2.jpg');
  background-attachment: fixed;
  background-size: 100%100%;
  }
