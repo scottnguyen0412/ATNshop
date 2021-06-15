@@ -8,7 +8,7 @@
  <body>
  <style>
  body {
-    background-image: url('Toy1.jpg');
+    background-image: url('adminatn.png');
  background-attachment: fixed;
  background-size: 100%100%;
  }
@@ -39,7 +39,7 @@ table {
                 <th style="background-color:#BA55D3" colspan="2" align="center">Operation</th>
                 </tr>
 <?php
-echo '<p> Databse of ATN Shop 1</p>';
+echo '<h1 style="color:orange"> Databse of ATN Shop 1</h1>';
             $host_heroku = "ec2-54-224-194-214.compute-1.amazonaws.com";
 			$db_heroku = "d1b7erismhj8n3";
 			$user_heroku = "irihpzeafcijwa";
