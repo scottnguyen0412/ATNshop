@@ -64,7 +64,7 @@ Edit/Update</td>
 ?>
 <style>
 input[type=submit]{
-  background-color: #CCFFFF;
+  background-color: #EEE8AA;
   border:none;
   color:white;
   padding: 16px 32px;
