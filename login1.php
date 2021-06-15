@@ -22,8 +22,8 @@
   <table style="width:100%">
   <thread style="text-align:left">
                 <tr>
-		<p style="color:blue">Product ID<p>
-                <th style="background-color:#FFFF00">Product ID</th>
+		
+                <th style="background-color:#FFFF00"><p style="color:blue">Product ID<p></th>
                 <th style="background-color:#FF7F50">Product Name</th>
                 <th style="background-color:#FFFF00">Product Price</th>
                 <th style="background-color:#FF7F50">Quantity</th>
