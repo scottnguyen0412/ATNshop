@@ -15,9 +15,7 @@
    <style
   class="table-responsive slideInRight animated" style="max-height: 400px;">
 }
-table {
-  border-spacing: 150px;
-}
+
 </style>
   <table class="w3-table">
                 <tr>
