@@ -1,10 +1,11 @@
 <html>
 <head>
  <ul>
- <a href="index.php" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-log-out"></span> Log out</a> 
+ 
  </ul>
  </head>
  <body>
+	 <a href="index.php" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-log-out"></span> Log out</a> 
  <style>
  body {
  background-image: url('login1.png');
