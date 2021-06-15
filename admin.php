@@ -1,7 +1,8 @@
 <html>
 <head>
  <ul>
- <li> <a href="index.php"> Log out</a> </li>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 	<a href="index.php" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-log-out"></span> Log out</a> 
  </ul>
  </head>
  <body>
@@ -21,15 +22,24 @@ table {
   border-spacing: 15px;
 }
 </style>
- <table border="2">
- <tr>
- <th>Product ID</th>
- <th>Product Name</th>
- <th>Product Price</th>
- <th>Quantity</th>
- </tr>
+ <style>
+   table, th, td {
+   border: 1px solid violet;
+ }
+}
+</style>
+  <table style="width:100%">
+  <thread style="text-align:left">
+                <tr>
+		
+                <th style="background-color:#FFFF00"><p style="color:darkblue">Product ID<p></th>
+                <th style="background-color:#FF7F50"><p style="color:darkblue">Product Name<p></th>
+                <th style="background-color:#FFFF00"><p style="color:darkblue">Product Price<p></th>
+                <th style="background-color:#FF7F50"><p style="color:darkblue">Quantity<p></th>
+                <th style="background-color:#BA55D3" colspan="2" align="center">Operation</th>
+                </tr>
 <?php
-echo '<p> ATN Shop 1</p>';
+echo '<p> Databse of ATN Shop 1</p>';
             $host_heroku = "ec2-54-224-194-214.compute-1.amazonaws.com";
 			$db_heroku = "d1b7erismhj8n3";
 			$user_heroku = "irihpzeafcijwa";
@@ -59,15 +69,24 @@ echo "
 }
 
 ?>
-<table border="2">
- <tr>
- <th>Product ID</th>
- <th>Product Name</th>
- <th>Product Price</th>
- <th>Quantity</th>
- </tr>
+<style>
+   table, th, td {
+   border: 1px solid violet;
+ }
+}
+</style>
+  <table style="width:100%">
+  <thread style="text-align:left">
+                <tr>
+		
+                <th style="background-color:#FFFF00"><p style="color:darkblue">Product ID<p></th>
+                <th style="background-color:#FF7F50"><p style="color:darkblue">Product Name<p></th>
+                <th style="background-color:#FFFF00"><p style="color:darkblue">Product Price<p></th>
+                <th style="background-color:#FF7F50"><p style="color:darkblue">Quantity<p></th>
+                <th style="background-color:#BA55D3" colspan="2" align="center">Operation</th>
+                </tr>
 <?php
-echo '<p> ATN Shop 2</p>';
+echo '<p>Databse of ATN Shop 2</p>';
             $host_heroku = "ec2-54-224-194-214.compute-1.amazonaws.com";
 			$db_heroku = "d1b7erismhj8n3";
 			$user_heroku = "irihpzeafcijwa";
