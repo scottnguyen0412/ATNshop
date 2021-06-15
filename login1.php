@@ -9,7 +9,7 @@
  body {
  background-image: url('Toy2.jpg');
  background-attachment: fixed;
- background-size: 100%;
+ background-size: 50%;
  }
  </style>
    <style>
