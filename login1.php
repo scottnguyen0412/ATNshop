@@ -9,8 +9,8 @@
  body {
  background-image: url('login1.png');
  background-position: center;
-  background-size: cover;
-  position: relative;
+ background-size: 100%100%;
+  
  }
  </style>
    <style>
