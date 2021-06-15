@@ -7,7 +7,7 @@
  <body>
  <style>
  body {
- background-image: url('Toy2.jpg');
+ background-image: url('login1.png');
  background-color: #cccccc;
   height: 500px;
   background-position: center;
