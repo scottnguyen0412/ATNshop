@@ -23,15 +23,15 @@
   <thread style="text-align:left">
                 <tr>
 		
-                <th style="background-color:#FFFF00"><p style="color:blue">Product ID<p></th>
-                <th style="background-color:#FF7F50">Product Name</th>
-                <th style="background-color:#FFFF00">Product Price</th>
-                <th style="background-color:#FF7F50">Quantity</th>
+                <th style="background-color:#FFFF00"><p style="color:white">Product ID<p></th>
+                <th style="background-color:#FF7F50"><p style="color:white">Product Name<p></th>
+                <th style="background-color:#FFFF00"><p style="color:white">Product Price<p></th>
+                <th style="background-color:#FF7F50"><p style="color:white">Quantity<p></th>
                 <th style="background-color:#BA55D3" colspan="2" align="center">Operation</th>
                 </tr>
 <?php
 
-            $host_heroku = "ec2-54-224-194-214.compute-1.amazonaws.com";
+            		$host_heroku = "ec2-54-224-194-214.compute-1.amazonaws.com";
 			$db_heroku = "d1b7erismhj8n3";
 			$user_heroku = "irihpzeafcijwa";
 			$pw_heroku = "f95d0c3c2fbeff2f8f8a836c4fbc1a31a6018cf2adbfb635f1829a96e436b107";
