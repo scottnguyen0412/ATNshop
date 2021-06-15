@@ -1,33 +1,42 @@
 <html>
   <head>
-    <link rel="stylesheet" href ="styles.css">
-    <title> ATN Shop </title>
-    <marquee bgcolor="gray" 
-             scrollamount="12" 
-             direction="left" 
-             onmouseover="this.stop();" 
-             onmouseout="this.start();">
-	    <center>
-		<?php
-		    date_default_timezone_set('Asia/Ho_Chi_Minh');
-			$date = getdate();
-			echo "<hr>";
-			echo "Today is: ".$date['weekday']."--".$date['mday']."/".$date['mon']."/".$date['year']."--".$date['hours'].":".$date['minutes'].":".$date['seconds'];
-		?>
-	  </center>
-    </marquee>
-    <ul> 
-        <li> <a href="">HOMEPAGE</a></li>
-        <li> <a href="login.php">LOGIN </a></li>        
-    </ul>
+    <title> Login </title>
   </head>
-    <body>
-      <style>
-        body {
-          background-image: url('background.jpg');
-          background-attachment: fixed;
-          background-size: 100%100%;
-        } 
-      </style>
-    </body>
+  <body>
+    <style>
+      body {
+        background-image: url('background.jpg');
+        background-attachment: fixed;
+        background-size: 100%100%;
+      }
+    </style>
+    <div>
+      <h2 style="color:white;" align="center">Login</h2>
+      <form style="color:white;" align="center" method="POST">
+        Username:<input type="text" name="userid"> <br>
+        Password:&nbsp;<input type="password" name="password"> <br>
+        <input type="submit" value="login">
+      </form>
+    </div>
+    <?php
+    if(isset($_POST['userid']) && isset($_POST['password']))
+    {
+      $user = $_POST['userid'];
+      $pass= $_POST['password'];
+    }
+    if($user == "atnshop1" && $pass == "admin"){
+      header("location:login1.php");
+    }
+    else ($user != "atnshop1" || $pass !="admin")
+    {
+        echo("Please try again!");
+    }
+    if($user == "atnshop2" && $pass == "admin"){
+   header("location:login2.php");
+    }
+    if($user == "admin" && $pass == "admin"){
+      header("location:admin.php");
+    }
+    ?>
+  </body>
 </html>
