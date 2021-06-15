@@ -4,7 +4,9 @@
     <title> Login </title>
     <marquee bgcolor="orange" 
              scrollamount="12" 
-             direction="left" >
+             direction="left" 
+	     onmouseover="this.stop();" 
+             onmouseout="this.start();">
         <center>
 		<?php
 		date_default_timezone_set('Asia/Ho_Chi_Minh');
