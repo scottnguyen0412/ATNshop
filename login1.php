@@ -9,7 +9,7 @@
  body {
  background-image: url('login1.png');
  background-color: #cccccc;
-  height: 200px;
+  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
