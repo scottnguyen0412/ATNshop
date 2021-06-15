@@ -9,7 +9,7 @@
  body {
  background-image: url('Toy2.jpg');
  background-repeat: no-repeat;
- background-size: auto;
+ background-size: cover;
  }
  </style>
    <style>
