@@ -19,7 +19,7 @@ table {
   border-spacing: 15px;
 }
 </style>
-  <table border="2">
+  <table class="w3-table">
                 <tr>
                 <th>Product ID</th>
                 <th>Product Name</th>
