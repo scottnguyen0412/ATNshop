@@ -8,8 +8,12 @@
  <style>
  body {
  background-image: url('Toy2.jpg');
- background-repeat: no-repeat;
- background-size: cover;
+ background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
  }
  </style>
    <style>
