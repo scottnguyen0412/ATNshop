@@ -17,9 +17,9 @@ die('Error: Could not connect: ' . pg_last_error());
  <body>
 <style>
  body {
- background-image: url('Toy1.jpg');
+ background-image: url('background2.png');
  background-attachment: fixed;
-background-size: 100%100%;
+ background-size: 100%100%;
  }
  </style>
  <br>
