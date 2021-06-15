@@ -12,12 +12,14 @@
  background-size: 100%100%;
  }
  </style>
-   <style
-  class="table-responsive slideInRight animated" style="max-height: 400px;">
+   <style>
+   table, th, td {
+   border: 1px solid black;
+ }
 }
-
 </style>
-  <table class="w3-table">
+  <table style="width:100%">
+  <thread style="text-align:left">
                 <tr>
                 <th style="background-color:#FFFF00">Product ID</th>
                 <th style="background-color:#FF7F50">Product Name</th>
